@@ -1,0 +1,241 @@
+{
+    "name": "withConnector_AhnLab",
+    "version": "1.1.0",
+    "label": "withConnector_AhnLab",
+    "description": "",
+    "publisher": "withnetworks",
+    "icon_small_name": {
+        "name": {
+            "name": {
+                "name": {
+                    "name": {
+                        "name": {
+                            "name": {
+                                "name": {
+                                    "name": {
+                                        "name": {
+                                            "name": {
+                                                "name": {
+                                                    "name": {
+                                                        "name": {
+                                                            "name": {
+                                                                "name": "",
+                                                                "content": ""
+                                                            },
+                                                            "content": ""
+                                                        },
+                                                        "content": ""
+                                                    },
+                                                    "content": ""
+                                                },
+                                                "content": ""
+                                            },
+                                            "content": ""
+                                        },
+                                        "content": ""
+                                    },
+                                    "content": ""
+                                },
+                                "content": ""
+                            },
+                            "content": ""
+                        },
+                        "content": ""
+                    },
+                    "content": ""
+                },
+                "content": ""
+            },
+            "content": ""
+        },
+        "content": ""
+    },
+    "icon_large_name": {
+        "name": {
+            "name": {
+                "name": {
+                    "name": {
+                        "name": {
+                            "name": {
+                                "name": {
+                                    "name": {
+                                        "name": {
+                                            "name": {
+                                                "name": {
+                                                    "name": {
+                                                        "name": {
+                                                            "name": {
+                                                                "name": "",
+                                                                "content": ""
+                                                            },
+                                                            "content": ""
+                                                        },
+                                                        "content": ""
+                                                    },
+                                                    "content": ""
+                                                },
+                                                "content": ""
+                                            },
+                                            "content": ""
+                                        },
+                                        "content": ""
+                                    },
+                                    "content": ""
+                                },
+                                "content": ""
+                            },
+                            "content": ""
+                        },
+                        "content": ""
+                    },
+                    "content": ""
+                },
+                "content": ""
+            },
+            "content": ""
+        },
+        "content": ""
+    },
+    "id": 291,
+    "configuration": {
+        "fields": [
+            {
+                "title": "trusguard_port",
+                "type": "text",
+                "name": "trusguardport",
+                "required": false,
+                "visible": true,
+                "editable": true,
+                "value": ""
+            },
+            {
+                "title": "trusguard_ip",
+                "type": "text",
+                "name": "trusguardip",
+                "required": false,
+                "visible": true,
+                "editable": true,
+                "value": ""
+            },
+            {
+                "title": "trusguard_password",
+                "type": "password",
+                "name": "trusguardpassword",
+                "required": false,
+                "visible": true,
+                "editable": true,
+                "value": null
+            },
+            {
+                "title": "trusguard_id",
+                "type": "text",
+                "name": "trusguardid",
+                "required": false,
+                "visible": true,
+                "editable": true,
+                "value": ""
+            }
+        ]
+    },
+    "operations": [
+        {
+            "title": "upload",
+            "operation": "upload",
+            "description": "This action uploads a file (or multiple files) to the AhnLab TrusGuard",
+            "parameters": [
+                {
+                    "title": "file_iri",
+                    "type": "text",
+                    "name": "fileiri",
+                    "required": true,
+                    "visible": true,
+                    "editable": true,
+                    "value": ""
+                },
+                {
+                    "title": "upload_description",
+                    "type": "text",
+                    "name": "uploaddescription",
+                    "required": false,
+                    "visible": true,
+                    "editable": true,
+                    "value": ""
+                },
+                {
+                    "title": "login_attempt",
+                    "type": "text",
+                    "name": "loginattempt",
+                    "required": false,
+                    "visible": true,
+                    "editable": true,
+                    "value": ""
+                }
+            ],
+            "open": false
+        },
+        {
+            "title": "delete_merge",
+            "operation": "delete_merge",
+            "description": "This action merges files within a given period into a single file, removes the original data from both the AhnLab TrusGuard and FortiSOAR Attachments, and re-uploads the merged data to AhnLab TrusGuard.",
+            "parameters": [
+                {
+                    "title": "end_date",
+                    "type": "text",
+                    "name": "enddate",
+                    "required": true,
+                    "visible": true,
+                    "editable": true,
+                    "value": ""
+                },
+                {
+                    "title": "file_iris",
+                    "type": "text",
+                    "name": "fileiris",
+                    "required": false,
+                    "visible": true,
+                    "editable": true,
+                    "value": ""
+                },
+                {
+                    "title": "merge_description",
+                    "type": "text",
+                    "name": "mergedescription",
+                    "required": false,
+                    "visible": true,
+                    "editable": true,
+                    "value": ""
+                },
+                {
+                    "title": "delete_description",
+                    "type": "text",
+                    "name": "deletedescription",
+                    "required": false,
+                    "visible": true,
+                    "editable": true,
+                    "value": ""
+                },
+                {
+                    "title": "login_attempt",
+                    "type": "text",
+                    "name": "loginattempt",
+                    "required": false,
+                    "visible": true,
+                    "editable": true,
+                    "value": ""
+                }
+            ],
+            "open": false
+        }
+    ],
+    "category": [
+        ""
+    ],
+    "active": true,
+    "cs_compatible": true,
+    "system": false,
+    "playbook_collections": [],
+    "icon_small": "",
+    "icon_large": "",
+    "help_online": null,
+    "vendor_version": null
+}
